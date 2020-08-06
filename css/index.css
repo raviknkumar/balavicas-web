@@ -11,9 +11,8 @@ body {
   
   #myNavbar {
     
-    padding: 60px 10px;
+    
     transition: 0.4s;
- 
     position: fixed;
     width: 100%;
     top: 0;
@@ -54,11 +53,24 @@ body {
 
   #aboutUs {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
   #projects {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #contactUs {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  
+  #contactUs {
+    height:500px;
+    color: #fff; 
+    background-color: #050000ee;
+  }
 
 
   .carousel-item img{
     width: inherit;
     height: inherit;
     object-fit: cover;
+  }
+
+  .title-text{
+    font-size: 2rem;
+  }
+
+  .footer-lower{
+    
   }
