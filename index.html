@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     
+    <link rel="icon" href="./assets/images/logo-en.png" sizes="any" type="image/png">
     <!-- bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -16,7 +17,7 @@
     <script src="../js/nav.js" defer></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myNavbar" data-offset="0">
       <nav class="navbar navbar-expand-lg navbar-light bg-light" id="myNavbar">
         <a class="navbar-brand" href="#">Balavicas</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,21 +26,50 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+          
+        <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutUs">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactUs">Contact Us</a>
+                </li>
+            </ul>
+        </ul>
         </div>
       </nav>
 
+      <div >
+          
+        <div id="aboutUs">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+        </div>
+
+        <div id="projects">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+          </div>
+
+
+        <div id="contactUs">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, distinctio. Quisquam amet consectetur nulla aspernatur, ullam mollitia maxime cum reiciendis, eligendi cupiditate nisi tempore fugiat odit sint, nihil dignissimos earum!
+          </div>
+
+
+      </div>
     <div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
         <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
         <p>Scroll down this frame to see the effect!</p>

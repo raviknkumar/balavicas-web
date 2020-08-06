@@ -41,11 +41,16 @@ body {
     color: black;
   }
   
-  #navbar a.active {
-    background-color: dodgerblue;
-    color: white;
+  .active {
+    background-color: #4FA9DC;
+    color: #e4e4e4 !important;
+    border-radius: 5px;
   }
   
   #navbar-right {
     float: right;
   }
+
+  #aboutUs {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #projects {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #contactUs {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
