@@ -11,25 +11,27 @@ body {
   
   #myNavbar {
     
-    
     transition: 0.4s;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 99;
   }
-  
-  #navbar a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
+
+  #myNavbar .navbar-toggler{
+    background-color: white;
+  }
+
+  #myNavbar .navbar-brand{
+    color: white;
   }
   
+  #myNavbar .nav-link{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+
   #navbar #logo {
     font-size: 35px;
     font-weight: bold;
@@ -73,4 +75,9 @@ body {
 
   .footer-lower{
     
+  }
+
+
+  .nav-open{
+    background-color: #232526 !important;
   }
