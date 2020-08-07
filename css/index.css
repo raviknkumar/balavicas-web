@@ -1,10 +1,20 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
-html, body {margin:0;padding:0;height:100%;}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+<<<<<<< HEAD
 body { 
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -48,36 +58,124 @@ body {
     color: #e4e4e4 !important;
     border-radius: 5px;
   }
+=======
+#myNavbar {
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4fa9dc;
+  color: #e4e4e4 !important;
+  border-radius: 5px;
+}
+
+#navbar-right {
+  float: right;
+}
+
+#aboutUs {
+  padding: 80px 0;
+}
+
+.aboutUs__quote{
+>>>>>>> aboutus
   
-  #navbar-right {
-    float: right;
-  }
+}
+.aboutUs__quote::after {
+  content: "\f10e";
+}
+.aboutUs__quote::before {
+  content: "\f10d";
+}
 
-  #aboutUs {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #projects {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  
-  #contactUs {
-    height:500px;
-    color: #fff; 
-    background-color: #050000ee;
-  }
+.aboutUs__quote::after,
+.aboutUs__quote::before{
+  font-family: FontAwesome;
+  font-size: 2rem;
+  color: #E8E8E8;
+}
 
+#projects {
+  padding: 3rem 1rem;
+  height: 500px;
+  color: #fff;
+  background-color: #673ab7;
+}
 
-  .carousel-item img{
-    width: inherit;
-    height: inherit;
-    object-fit: cover;
-  }
+.parallax {
+  /* The image used */
+  background-image: url("./../assets/images/background.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .title-text{
-    font-size: 2rem;
-  }
+#contactUs {
+  color: #fff;
+  background-color: rgb(46, 46, 46);
+  padding-bottom: 2vh;
+}
 
-  .footer-lower{
-    
-  }
+.carousel-item img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
 
+.title-text {
+  font-size: 2rem;
+}
 
-  .nav-open{
-    background-color: #232526 !important;
-  }
+.footer-lower {
+}
+
+.footer-lower hr {
+  margin: 1rem 0;
+  border-color: #fff;
+  opacity: 0.05;
+}
+
+.social-icons .icon {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: white;
+}
+
+.social-icons .icon:hover {
+  text-decoration: none;
+  color: rgb(168, 168, 230);
+}
+
+.nav-open{
+  background-color: #232526 !important;
+}
