@@ -12,6 +12,7 @@ html, body {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: scroll;
   }
 
   #myNavbar {
@@ -77,9 +78,12 @@ body {
   color: rgb(168, 168, 230);
 }
 #aboutUs {
-  padding: 80px 0;
+  padding: 3rem 0;
 }
 
+.aboutUs__imgSection img{
+  width: 100vw;
+}
 .aboutUs__quote{
 
 }
@@ -97,12 +101,52 @@ body {
   color: #E8E8E8;
 }
 
+.aboutUs__underline{
+  height: .25rem;
+  width: 5rem;
+  border-radius: .25rem;
+  --bg-opacity: 1;
+  background-color: #667eea;
+  background-color: rgba(102,126,234,var(--bg-opacity));
+  margin-bottom: .25rem;
+}
+
 #projects {
 
   padding: 3rem 1rem;
   height: 500px;
   color: #fff;
   background-color: #673ab7;
+}
+
+.equal {
+  
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-text {
+  flex: 1 1 auto;
+}
+
+#getInvolved{
+  padding: 3rem 1rem;
+}
+
+.inner{
+  overflow: hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.2);
 }
 
 .parallax {

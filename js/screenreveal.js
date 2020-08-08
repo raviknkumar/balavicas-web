@@ -35,3 +35,9 @@ sr.reveal('.info-right', {
     distance: '200px',
     viewFactor: 0.4
 });
+sr.reveal('.info-bottom', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '200px',
+    viewFactor: 0.4,
+});
