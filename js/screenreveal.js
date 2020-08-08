@@ -39,5 +39,11 @@ sr.reveal('.info-bottom', {
     duration: 2000,
     origin: 'bottom',
     distance: '200px',
-    viewFactor: 0.4,
+    viewFactor: 0.2,
+});
+sr.reveal('.info-bottom', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '200px',
+    viewFactor: 0.3,
 });
