@@ -1,4 +1,5 @@
 let viewFactor;
+AOS.init();
 var checkWidth = function () {
     // set the correct configuration object
     if (window.innerWidth < 768) {

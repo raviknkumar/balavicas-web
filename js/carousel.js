@@ -19,7 +19,8 @@ $(window).on('resize', function (){
   $item.height($wHeight);
 });
 
-$('.carousel').carousel({
-  interval: 6000,
-  pause: "false"
-});
+// $('.carousel').carousel({
+//   interval: 6000,
+//   pause: "false"
+// });
+
