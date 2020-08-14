@@ -29,3 +29,11 @@ function aos_init() {
 $(window).on('load', function() {
   aos_init();
 });
+
+/*
+  navbar-scrolled{
+    padding: 10px 10px 2px 10px;
+    background-color: #232526;
+     
+  }
+*/
